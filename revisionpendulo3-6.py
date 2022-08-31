@@ -25,7 +25,7 @@ class Ball(object): # Péndulo
   
   def draw(self):
     pygame.draw.lines(screen, (50,50,50), False, (axis, (self.x, self.y)))
-    pygame.draw.circle(screen, (100, 100, 100), (self.x, self.y), 15)
+    pygame.draw.circle(screen, (100, 100, 100), (self.x, self.y), 17)
 
 
 def lengthF(): # Longitud del Péndulo
