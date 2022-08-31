@@ -57,7 +57,7 @@ def move(): # Actualizar valores de x e y en el péndulo
   pendulo.x = xy[0]
   pendulo.y = xy[1]
 
-def info(text, position): # Mostrar ángulo y longitud en pantalla
+def info(text, position): # Mostrar informaci en pantalla
   font = pygame.font.SysFont("Arial", 24, True, False)
   surface = font.render(text, True, (0,0,0))
   screen.blit(surface, position)
