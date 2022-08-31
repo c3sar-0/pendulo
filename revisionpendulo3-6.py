@@ -3,6 +3,7 @@ from timeit import default_timer as timer
 
 
 ##### IMPLEMENTACIÓN DE ESCALA Y CORRECIÓN DE LA ECUACIÓN DEL ÁNGULO (sqrt(g/l)) #####
+##### FALTA RESETEAR EL TIEMPO AL DAR CLICK ####
 
 width = 800
 height = 400
