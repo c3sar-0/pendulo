@@ -10,8 +10,8 @@ pygame.init()
 screen = pygame.display.set_mode((width, height))
 clock = pygame.time.Clock()
 
-b = 0.07 ##########################
-m = 0.3 #0.3 ##########################
+b = 0.07
+m = 0.3 #0.3
 
 axis = (400, 0)
 xy = [0,0]
@@ -57,7 +57,7 @@ def move(): # Actualizar valores de x e y en el péndulo
   pendulo.x = xy[0]
   pendulo.y = xy[1]
 
-def info(text, position): # Mostrar informaci en pantalla
+def info(text, position): # Mostrar información en pantalla
   font = pygame.font.SysFont("Arial", 24, True, False)
   surface = font.render(text, True, (0,0,0))
   screen.blit(surface, position)
@@ -85,7 +85,7 @@ while not out:
   xy = get_position()
   screen.fill((255,255,255))
   info("Angle (º): " + str(round((theta*180/math.pi), 1)), (25,25))
-  info("Length: " + "1m = 150px", (25,55)) # + str(round(length/1000, 2)), (25,55))
+  info("Length: " + "1m = 150px", (25,55))
   info("Time (s): " + str(round(t, 1)), (25,85))
   info("b : " + str(b), (25,125))
   info("m (kg): " + str(m), (25,155))
