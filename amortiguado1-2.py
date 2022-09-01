@@ -2,7 +2,6 @@ import pygame, math
 from timeit import default_timer as timer
 
 ### PÉNDULO AMORTIGUADO ###
-### NECESITO RESETEAR EL TIMER CADA VEZ QUE DOY CLICK (en esta simulación sí afecta el movimiento)
 
 width = 800
 height = 400
